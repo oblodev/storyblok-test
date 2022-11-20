@@ -43,6 +43,6 @@ export async function getStaticProps() {
       story: data ? data.story : false,
       key: data ? data.story.id : false,
     },
-    revalidate: 3600, // revalidate every hour
+    revalidate: 5, // revalidate every hour
   };
 }
